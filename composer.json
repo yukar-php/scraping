@@ -1,0 +1,34 @@
+{
+    "name": "yukar-php/scraping",
+    "description": "Yukar Data Scraping (YAML, HTML, etc.) Library",
+    "license": "MIT",
+    "keywords": [
+        "Scraper",
+        "Data Scraping",
+        "Screen Scraping",
+        "Web Scraping",
+        "Yaml Scraping",
+        "Yaml"
+    ],
+    "homepage": "https://github.com/yukar-php/scraping",
+    "authors": [
+        {
+            "name" : "Yukar Scraping Contributors",
+            "homepage": "https://github.com/yukar-php/scraping/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "require-dependencies": true,
+    "autoload": {
+        "psr-4": {
+            "Yukar\\Scraping\\": "src/",
+            "Yukar\\Scraping\\Tests\\": "tests/src/"
+        }
+    }
+}
